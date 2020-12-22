@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="loginform">
+        <table cellpadding="15" style="font-family:Lora">
+            <tr>
+                <td style="">
+                    <label style="font-weight: bold;margin-right:50px;font-size:18px;">Full name</label><br />
+
+                </td>
+                <td>
+                    <input class="inputformsuname" id="phonelogin" placeholder="Enter your full name" style="margin-bottom:0px;
+                                                    font-family:Lora;
+                                                    font-size:18px;
+                                                    width: 350px; height: 18px;
+                                                    outline:none;
+                                                    letter-spacing:3px;
+                                                    border-top: none;
+                                                    border-left: none;
+                                                    border-right: none;
+                                                    border-bottom: 1px solid #0f4c81"
+                           type="text" required /><br />
+                </td>
+            </tr>
+            <tr>
+                <td style="">
+                    <label style="font-weight: bold;margin-right:50px;font-size:18px;">Phone</label><br />
+
+                </td>
+                <td>
+                    <input class="inputformsuphone" id="smslogin" placeholder="Enter your phone" style="margin-bottom:0px;
+                                                    font-family:Lora;
+                                                    font-size:18px;
+                                                    width: 350px; height: 18px;
+                                                    outline:none;
+                                                    letter-spacing:3px;
+                                                    border-top: none;
+                                                    border-left: none;
+                                                    border-right: none;
+                                                    border-bottom: 1px solid #0f4c81"
+                           type="number" required /><br />
+                </td>
+            </tr>
+            <tr>
+                <td style="">
+                    <label style="font-weight: bold;margin-right:50px;font-size:18px;">Email</label><br />
+
+                </td>
+                <td>
+                    <input class="inputformsumail" id="smslogin" placeholder="Enter your email" style="margin-bottom:0px;
+                                                    font-family:Lora;
+                                                    font-size:18px;
+                                                    width: 350px; height: 18px;
+                                                    outline:none;
+                                                    letter-spacing:3px;
+                                                    border-top: none;
+                                                    border-left: none;
+                                                    border-right: none;
+                                                    border-bottom: 1px solid #0f4c81"
+                           type="text" required /><br />
+                </td>
+            </tr>
+            <tr>
+                <td style="">
+                    <label style="font-weight: bold;margin-right:50px;font-size:18px;">Address</label><br />
+
+                </td>
+                <td>
+                    <select style="margin-bottom:0px;
+                                                    font-family:Lora;
+                                                    font-size:18px;
+                                                    width: 350px; height: 30px;
+                                                    outline:none;
+                                                    background-color:#dce7f8;">
+                        <option Value="1">District 1</option>
+                        <option Value="2">District 2</option>
+                        <option Value="3">District 3</option>
+                        <option Value="4">District 4</option>
+                        <option Value="5">District 5</option>
+                        <option Value="6">District 6</option>
+                        <option Value="7">District 7</option>
+                        <option Value="8">District 8</option>
+                        <option Value="9">District 9</option>
+                        <option Value="10">District 10</option>
+                        <option Value="11">District 11</option>
+                        <option Value="12">District 12</option>
+                        <option Value="GV">Go Vap District</option>
+                        <option Value="TP">Tan Phu District</option>
+                        <option Value="TB">Tan Binh District</option>
+                        <option Value="BT">Binh Tan District</option>
+                        <option Value="PN">Phu Nhuan District</option>
+                        <option Value="BThanh">Binh Thanh District</option>
+                        <option Value="TD">Thu Duc District</option>
+                        <option Value="CC">Cu Chi District</option>
+                        <option Value="NB">Nha Be District</option>
+                        <option Value="CG">Can Gio District</option>
+                        <option Value="HM">Hoc Mon District</option>
+                        <option Value="BC">Binh Chanh District</option>
+                    </select>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td style="">
+                    <label style="font-weight: bold;margin-right:50px;font-size:18px;"></label><br />
+
+                </td>
+                <td>
+                    <input class="inputformsuward" id="smslogin" placeholder="Ward 10" style="margin-bottom:0px;
+                                                    font-family:Lora;
+                                                    font-size:18px;
+                                                    width: 350px; height: 18px;
+                                                    outline:none;
+                                                    letter-spacing:3px;
+                                                    border-top: none;
+                                                    border-left: none;
+                                                    border-right: none;
+                                                    border-bottom: 1px solid #0f4c81"
+                           type="text" required /><br />
+                </td>
+            </tr>
+            <tr>
+                <td style="">
+                    <label style="font-weight: bold;margin-right:50px;font-size:18px;"></label><br />
+
+                </td>
+                <td>
+                    <input class="inputformsustreet" id="smslogin" placeholder="Enter home number, street" style="margin-bottom:0px;
+                                                    font-family:Lora;
+                                                    font-size:18px;
+                                                    width: 350px; height: 18px;
+                                                    outline:none;
+                                                    letter-spacing:3px;
+                                                    border-top: none;
+                                                    border-left: none;
+                                                    border-right: none;
+                                                    border-bottom: 1px solid #0f4c81"
+                           type="text" required /><br />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="font-size:18px">
+                    <input type="checkbox" id="lagompromote" name="lagompromote" /> I accept to receive Lagom's promotion.
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input onclick=" window.open('Addtocart.html','_parent')" type="submit" id="signup" value="Sign up" style="
+                                        background-color:#0f4c81;
+                                        text-align:center;width:100%;color:white;
+                                        border:none;
+                                        cursor: pointer;border-radius:5px;
+                                        padding:15px;
+                                        font-size:18px;
+                                        font-family:Lora" />
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>
